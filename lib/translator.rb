@@ -6,7 +6,7 @@ def load_library(file_path)
  #code goes here
   emo = YAML.load_file("lib/emoticons.yml")
   
-  new_hash = {}
+https://learn.co/tracks/fswd-prework-2-01/fswd-prework-2-01-fswd-prework/fswd-prework-2-01-fswd-prework-ruby-enumerables-and-better-tools-for-collections-work/fswd-prework-2-01-fswd-prework-ruby-enumerables-and-better-tools-for-collections-work-emoticon-translator-lab#  new_hash = {}
   emo.each do |key, value|
   new_hash[key] = {}  
   new_hash[key][:english] = value[0]
